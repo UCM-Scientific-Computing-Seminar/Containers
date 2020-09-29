@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  bash: 
+    image: myfedora:pip
+    volumes:
+       - .:/root/files
+    command: bash
